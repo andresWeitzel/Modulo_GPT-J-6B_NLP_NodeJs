@@ -1,0 +1,56 @@
+=========================================
+======PROYECTO MAVEN EN ECLIPSE===========
+=========================================
+1)NEW->MAVEN PROYECT.
+
+2)SETEAMOS EL WORKSPACE
+
+3)SETEAMOS EL ARCHETYPE
+EN CATALOG->ALL CATALOGS
+EN FILTER->ESCRIBIMOS webApp y seleccionamos ORG.APACHE.MAVEN.ARCHETYPES
+
+4)ESCRIBIMOS En GroupId-> com.jee.maven
+ESCRIBIMOS En Artifact Id-> nombre de nuestro proyecto
+
+5)AGREGAMOS las dependencias necesarias dentro del pom.xml
+
+6)CAMBIAMOS la version de Java de 1.7 a 1.8 en <maven.compiler.source> y <maven.compiler.target>
+
+7)CONFIGURAMOS el build path->clickDerecho sobre el proyect->Build Path->Configure Build path->SELECCIONAMOS  MAVEN DEPENDENCIES->Apply and Close
+
+
+=============================
+======DEPENDENCIES===========
+============================
+
+-------------------
+-JAVA SERVLET API--
+-------------------
+
+https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api/4.0.1
+
+
+<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>javax.servlet-api</artifactId>
+    <version>4.0.1</version>
+    <scope>provided</scope>
+</dependency>
+
+-----------------
+-MYSQL CONNECTOR-
+-----------------
+https://mvnrepository.com/artifact/mysql/mysql-connector-java/8.0.25
+
+
+<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.25</version>
+</dependency>
+
+
+
+
