@@ -1,0 +1,68 @@
+===================================================
+===CONFIGURACIONES PROYECTO JPA MAVEN EN ECLIPSE===
+===================================================
+
+Primeramente deberás configurar tu espacio de trabajo, en donde se alojara
+la app, luego de eso creamos nuestra app..
+
+1) File
+-->New
+-->Proyect Maven(Si no aparece buscar en Other)
+
+2) Por defecto dejar marcado Use default Workspace location
+-->Next
+
+3) Esperar a que carguen los Group id y en Filter escribir org.apache.maven.archetypes
+-->seleccionar el ultimo(maven-archetype-webapp)
+-->Next
+
+4)Configurar el Group Id (PAQUETE DEL PROYECTO) a gusto, en mi caso com.formulario
+
+5)En Artifact Id (NOMBRE DEL PROYECTO) a gusto, en mi caso FormularioMaven
+
+6)Seguidamente Finish
+
+(Si cerraste alguna ventana
+-->Window
+-->Perspective
+-->Reset perspective
+)
+
+==============================================
+== CONFIGURACION DEL SERVIDOR Y DESPLIEGUE ===
+==============================================
+
+7)Configuramos nuestro servidor
+
+8)Utilizare Wildfly, buscar por internet,descargar, descromprimir, colocar en el 
+directorio del proyecto u otro seguro y listo.
+
+9.1)Click der sobre el proyecto
+-->Properties
+-->Buscar Proyect Facets
+-->Pestaña Runtimes(a la derecha de todo, al lado de Details)
+-->Seleccionar el Server WildFly 23.0 Runtime (En mi caso)
+-->Apply and Close
+
+9.2)Otra forma de realizar esto es desde la pestaña Servers, en las pestañas de 
+abajo de eclipse(a mi me trajo algunos problemas, uso la anterior)
+
+
+10)Fijarse que se elimina el cartel rojo sobre el proyecto, indicando que 
+faltaba configurar el servidor de despliegue
+
+11)Probamos la app
+-->Click Der
+-->Run As
+-->Run on Server
+-->Seleccionas Wildfly
+-->Next
+-->ATENTI, si usaste otro proyecto en Maven, el mismo quedo en la pestaña
+ Configured junto con el nuevo, selecciona el viejo y toca el boton Remove, nos 
+quedamos con el Nuevo(en mi caso FormularioMaven)
+-->Lo seleccionas y Finish
+
+12)Fijarse el Log en Console(todo el registro de despliegue del Server), tarda unos segundos.
+
+13)Si te abre un localhost con Hello World! todo está correcto.
+
