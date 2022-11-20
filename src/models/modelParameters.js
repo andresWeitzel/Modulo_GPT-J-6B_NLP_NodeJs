@@ -1,10 +1,10 @@
 
-module.exports.set = () =>{
+module.exports.set = (text,length,temp,batch) =>{
     const  params = {
-        "text": "generate two functions in javascript",
-        "length": 250,
-        "temperature": 0.9,
-        "batchSize": 1
+        "text": text,
+        "length": length,
+        "temperature": temp,
+        "batchSize": batch
     }
     return params;
 }
