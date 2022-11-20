@@ -1,3 +1,5 @@
+![Index app](https://github.com/andresWeitzel/Modulo_GPT-J_NLP_NodeJs/blob/master/doc/brain.jpg)
+
 # Módulo_GPT-J_NLP_NodeJs
 
 * Módulo para el Procesamiento del Lenguaje Natural de código abierto (GPT-J) para la automatización de procesos en una aplicación
