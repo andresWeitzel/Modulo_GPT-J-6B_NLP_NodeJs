@@ -28,7 +28,24 @@
 #### Ajuste de Temperatura (temperature param)
 * La temperatura determina la exhaustividad del módelo generativo. 
 * Establecer valores de temperatura bajos conlleva a un módelo más seguro. 
-* Establecer valores de temperatura altos conlleva a un módelo más inestable. 
+* Establecer valores de temperatura altos conlleva a un módelo más inestable.
+#### Tamaño del Lote (batchSize param)
+* Se implementa para rendimiento de GPU.
+
+#### Ejemplo de Parámetros
+</br>
+
+  ``` js
+  
+    const modelParameters = {
+        "text": "i want to know the current temperature",
+        "length": 250,
+        "temperature": 0.9,
+        "batchSize": 1
+    }
+
+  ```
+
 
 
 
