@@ -3,7 +3,7 @@
 * Módulo para el Procesamiento del Lenguaje Natural de código abierto (GPT-J) para la automatización de procesos en una aplicación
 
 
-### Ejecución del Proyecto
+## Ejecución del Proyecto
 * Crear un entorno de trabajo a través de algún IDE
 * Clonar el Proyecto (`git clone https://github.com/andresWeitzel/Api_GPT-J_NLP_NodeJs`)
 * Dentro del directorio instalar todos los plugins implementados
@@ -11,7 +11,7 @@
 
 </br>
   
-### Core GPT-J
+## Core GPT-J
 * Ejemplo : https://www.banana.dev/pretrained-models/nodejs/gptj
 * Modelos : https://www.banana.dev/pretrained-models/nodejs
 
@@ -20,7 +20,7 @@
 
 </hr>
 
-### Parámetros (Pesos) del Modelo
+## Parámetros (Pesos) del Modelo
 #### Input (text param)
 * Corresponde a la capa de entrada que el modelo analizará (Ej: `generate two functions in javascript`)
 #### Longitud del texto (length param)
@@ -32,7 +32,7 @@
 #### Tamaño del Lote (batchSize param)
 * Se implementa para rendimiento de GPU.
 
-#### Ejemplo de Parámetros
+### Ejemplo de Parámetros
 </br>
 
   ``` js
@@ -51,8 +51,7 @@
 
 </br>
 
-### Modelo Pre Carga Request
-* Input Text Example : `I want to know the current temperature`
+## Modelo Pre Carga Request
 
 </br>
 
@@ -80,7 +79,7 @@
 
   ```
   
-### Respuesta GPT-J
+## Respuesta GPT-J
 
   ``` terminal
       {
