@@ -15,6 +15,7 @@
   
 ## Core GPT-J
 * Ejemplo : https://www.banana.dev/pretrained-models/nodejs/gptj
+* Generate Api Key : https://app.banana.dev/
 * Modelos : https://www.banana.dev/pretrained-models/nodejs
 
 </br>
