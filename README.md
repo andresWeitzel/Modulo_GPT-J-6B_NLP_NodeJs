@@ -2,7 +2,7 @@
 
 # Módulo_GPT-J-6B_NLP_NodeJs
 
-* Módulo para el Procesamiento de Lenguaje Natural de código abierto (GPT-J).
+* Módulo para el Procesamiento de Lenguaje Natural de código abierto (GPT-J-6B).
 
 
 ## Ejecución del Proyecto
