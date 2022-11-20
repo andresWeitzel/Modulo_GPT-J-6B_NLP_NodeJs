@@ -13,10 +13,15 @@
 
 </br>
   
-## Core GPT-J
+## Api del Core GPT-J-6B
 * [Ejemplificacón Base](https://www.banana.dev/pretrained-models/nodejs/gptj)
 * [Generate Api Key](https://app.banana.dev/)
 * [Modelos](https://www.banana.dev/pretrained-models/nodejs)
+
+## Core Original GTP-J-6B (Mesh Transformer JAX)
+* [Repositorio](https://github.com/kingoflolz/mesh-transformer-jax/#mesh-transformer-jax)
+* El Core con el modélo no optimizado pesa 6gb. Con el Módelo Optimizado 61gb.
+
 
 </br>
 
