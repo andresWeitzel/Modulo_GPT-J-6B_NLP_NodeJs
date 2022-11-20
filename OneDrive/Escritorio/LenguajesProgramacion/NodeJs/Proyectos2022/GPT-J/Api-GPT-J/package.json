@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@banana-dev/banana-dev": "^3.0.0"
+  }
+}
