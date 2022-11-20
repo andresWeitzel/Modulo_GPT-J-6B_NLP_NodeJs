@@ -5,7 +5,7 @@ var apiKey = config.API_KEY;
 var modelKey = "gptj";
 
 const modelParameters = {
-    "text": "Hey GPTJ, how are you doing?",
+    "text": "generate two functions in javascript",
     "length": 250,
     "temperature": 0.9,
     "batchSize": 1
