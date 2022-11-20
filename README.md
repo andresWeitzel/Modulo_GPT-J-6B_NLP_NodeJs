@@ -2,7 +2,7 @@
 
 # Módulo_GPT-J_NLP_NodeJs
 
-* Módulo para el Procesamiento del Lenguaje Natural de código abierto (GPT-J) para la automatización de procesos en una aplicación
+* Módulo para el Procesamiento de Lenguaje Natural de código abierto (GPT-J).
 
 
 ## Ejecución del Proyecto
