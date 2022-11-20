@@ -58,26 +58,28 @@
 </br>
 
   ``` js
-    const banana = require('@banana-dev/banana-dev');
-    const config = require('../config.js');
+   const gptCore = require('@banana-dev/banana-dev');
+   const config = require('../configs/config.js');
+   const modelParameters = require('../models/modelParameters');
 
-    var apiKey = config.API_KEY;
-    var modelKey = "gptj";
+   let apiKey = config.API_KEY;
+   let modelKey = config.MODEL_KEY;
 
-    const modelParameters = {
-        "text": "i want to know the current temperature",
-        "length": 250,
-        "temperature": 0.9,
-        "batchSize": 1
-    }
+   let params = modelParameters.set();
 
-    let run = async (modelParameters) => {
-        var out = await banana.run(apiKey, modelKey, modelParameters)
-        console.log(out)
-        return out
-    }
 
-    run(modelParameters)
+   let run = async (params) => {
+       try {
+           var out = await gptCore.run(apiKey, modelKey, params)
+           console.log(out)
+           return out
+       } catch (error) {
+           console.log(error);
+       }
+
+   }
+
+   run(params)
 
   ```
   
