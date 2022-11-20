@@ -32,7 +32,7 @@
 #### Tamaño del Lote (batchSize param)
 * Se implementa para rendimiento de GPU.
 
-### Ejemplo de Parámetros
+#### Ejemplo de Parámetros
 </br>
 
   ``` js
