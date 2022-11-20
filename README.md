@@ -2,20 +2,29 @@
 
 * Módulo para el Procesamiento del Lenguaje Natural de código abierto (GPT-J) para la automatización de procesos en una aplicación
 
-</br>
 
 ### Ejecución del Proyecto
 * Crear un entorno de trabajo a través de algún IDE
 * Clonar el Proyecto (`git clone https://github.com/andresWeitzel/Api_GPT-J_NLP_NodeJs`)
 * Dentro del directorio instalar todos los plugins implementados
   * `npm install @banana-dev/banana-dev@3.0.0`
+
+</br>
+
   
 ### Core GPT-J
 * Ejemplo : https://www.banana.dev/pretrained-models/nodejs/gptj
 * Modelos : https://www.banana.dev/pretrained-models/nodejs
 
-
 </hr>
+
+### Parámetros (Pesos) del Modelo
+#### Ajuste de Temperatura
+* La temperatura determina la exhaustividad del módelo generativo. 
+* Establecer valores de temperatura bajos conlleva a un módelo más seguro. 
+* Establecer valores de temperatura altos conlleva a un módelo más inestable. 
+
+
 
 </br>
 
