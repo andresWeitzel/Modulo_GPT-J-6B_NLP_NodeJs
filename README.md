@@ -19,8 +19,9 @@
 * [Modelos](https://www.banana.dev/pretrained-models/nodejs)
 
 ## Core Original GTP-J-6B (Mesh Transformer JAX)
+* (El Core con el modelo No optimizado pesa 6gb. Con el Modelo Optimizado 61gb).
 * [Repositorio](https://github.com/kingoflolz/mesh-transformer-jax/#mesh-transformer-jax)
-* El Core con el modélo no optimizado pesa 6gb. Con el Módelo Optimizado 61gb.
+
 
 
 </br>
@@ -32,9 +33,9 @@
 #### Input (text param)
 * Corresponde a la capa de entrada que el modelo analizará (Ej: `generate two functions in javascript`)
 #### Longitud del texto (length param)
-* La longitud del texto de salida se mide en tokens, estos son secuencias de carácteres comunes, que se encuentran a través del core del módelo.
+* La longitud del texto de salida se mide en tokens, estos son secuencias de carácteres comunes, que se encuentran a través del core del modelo.
 #### Ajuste de Temperatura (temperature param)
-* La temperatura determina la exhaustividad del módelo generativo. 
+* La temperatura determina la exhaustividad del modelo generativo. 
 * Establecer valores de temperatura bajos conlleva a un módelo más seguro. 
 * Establecer valores de temperatura altos conlleva a un módelo más inestable.
 #### Tamaño del Lote (batchSize param)
