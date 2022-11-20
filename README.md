@@ -20,7 +20,10 @@
 </br>
 
 ### Modelo Pre Carga Request
-* Input Text : `I want to know the current temperature`
+* Input Text Example : `I want to know the current temperature`
+
+</br>
+
   ``` js
     const banana = require('@banana-dev/banana-dev');
     const config = require('../config.js');
