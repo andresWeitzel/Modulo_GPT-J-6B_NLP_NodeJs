@@ -52,7 +52,7 @@
         "batchSize": 1
   ```
 
-#### Modelo de Capa de Parámetros implementado
+## Modelo de Capa Model Parameters implementado (Seteo) 
 
 </br>
 
@@ -70,7 +70,7 @@
 
   ```
 
-## Modelo de Capa Runner (Ejecución) implementado
+## Modelo de Capa Runner implementado (Ejecución)
 
 </br>
 
@@ -110,7 +110,7 @@
 
   ```
   
-## Respuesta Core GPT-J
+## Output Core GPT-J (Respuesta)
 
   ``` terminal
           message: 'success',
