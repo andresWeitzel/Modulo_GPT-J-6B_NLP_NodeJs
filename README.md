@@ -10,16 +10,22 @@
   * `npm install @banana-dev/banana-dev@3.0.0`
 
 </br>
-
   
 ### Core GPT-J
 * Ejemplo : https://www.banana.dev/pretrained-models/nodejs/gptj
 * Modelos : https://www.banana.dev/pretrained-models/nodejs
 
+</br>
+
+
 </hr>
 
 ### Parámetros (Pesos) del Modelo
-#### Ajuste de Temperatura
+#### Input (text param)
+* Corresponde a la capa de entrada que el modelo analizará (Ej: `generate two functions in javascript`)
+#### Longitud del texto (length param)
+* La longitud del texto de salida se mide en tokens, estos son secuencias de carácteres comunes, que se encuentran a través del core del módelo.
+#### Ajuste de Temperatura (temperature param)
 * La temperatura determina la exhaustividad del módelo generativo. 
 * Establecer valores de temperatura bajos conlleva a un módelo más seguro. 
 * Establecer valores de temperatura altos conlleva a un módelo más inestable. 
