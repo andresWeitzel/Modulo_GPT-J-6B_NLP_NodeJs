@@ -6,23 +6,27 @@ const modelParameters = require('../models/modelParameters');
 const apiKey = config.API_KEY;
 const modelKey = config.MODEL_KEY;
 //Params
-let text = "Quiero saber la Temperatura Actual en Buenos Aires, Argentina"
+let text = "Quiero saber la Temperatura Actual en Buenos"
 let length = 400
 let temperature = 0.7
 let batchSize = 1
 
-let params = modelParameters.set(text,length,temperature, batchSize);
 
 
-let run = async (params) => {
+let runModel = async (textInput) => {
     try {
+        let params = modelParameters.set(textInput,length,temperature, batchSize);
+        
         var out = await gptCore.run(apiKey, modelKey, params)
+        
         console.log(out)
+        
         return out
+
     } catch (error) {
         console.log(error);
     }
  
 }
 
-run(params)
+//runModel(text)
