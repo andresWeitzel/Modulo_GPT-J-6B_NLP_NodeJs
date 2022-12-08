@@ -13,7 +13,7 @@ let batchSize = 1
 
 
 
-let runModel = async (textInput) => {
+module.exports.run = async (textInput) => {
     try {
         let params = modelParameters.set(textInput,length,temperature, batchSize);
         
@@ -29,4 +29,3 @@ let runModel = async (textInput) => {
  
 }
 
-//runModel(text)
