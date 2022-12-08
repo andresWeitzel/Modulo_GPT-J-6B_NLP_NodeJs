@@ -10,6 +10,22 @@
 * Clonar el Proyecto (`git clone https://github.com/andresWeitzel/Api_GPT-J_NLP_NodeJs`)
 * Dentro del directorio instalar todos los plugins implementados
   * `npm install @banana-dev/banana-dev@3.0.0`
+  
+## Ejecución del Paquete del Proyecto ([npm](https://www.npmjs.com/package/gpt-j))
+* Crear un entorno de trabajo a través de algún IDE
+* Crear un Nuevo Proyecto para implementar dicho módulo
+* Instalar dicha librería `npm i gpt-j`
+* Crear un .js para el uso de la misma, importar, definir keys y ejecutar
+
+</br>
+
+  ``` js
+       const modelRunner = require('gpt-j');
+       const apiKey = 'XXXX'
+       const modelKey = 'gptj'
+
+       modelRunner.run('hola',apiKey,modelKey);
+  ```
 
 </br>
   
