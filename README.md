@@ -26,6 +26,33 @@
 
        modelRunner.run('hola',apiKey,modelKey);
   ```
+* Para mayor seguridad se pueden implementar variables de entorno para la key..
+* Creamos un archivo llamado `config.js` y seteamos dicha key 
+</br>
+
+ ``` js
+module.exports={
+    API_KEY: process.env.API_KEY || "xxxx",
+}
+  ```
+* La implementamos en el archivo principal  
+ 
+ </br>
+
+  ``` js
+       const config = require('config.js');
+       const modelRunner = require('gpt-j');
+       
+       //keys
+       const apiKey = config.API_KEY;
+       const modelKey = 'gptj'
+
+       modelRunner.run('hola',apiKey,modelKey);
+  ```
+* IMPORTANTE : Crear un archivo `.gitignore` para excluir el archivo `config.js`  
+  
+  
+  
 
 </br>
   
