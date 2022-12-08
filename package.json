@@ -1,8 +1,8 @@
 {
-  "name": "runners",
-  "version": "1.0.0",
+  "name": "gpt-j",
+  "version": "1.0.3",
   "description": "",
-  "main": "modelRunner.js",
+  "main": "src/runners/modelRunner.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
