@@ -3,6 +3,7 @@
 # Módulo_GPT-J-6B_NLP_NodeJs
 
 * Módulo para el Procesamiento de Lenguaje Natural de código abierto ([GPT-J-6B](https://www.forefront.ai/blog-posts/gpt-j-6b-an-introduction-to-the-largest-open-sourced-gpt-model)).
+* [Repositorio npm del paquete desarrollado](https://www.npmjs.com/package/gpt-j)
 
 
 ## Ejecución del Proyecto
